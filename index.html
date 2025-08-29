@@ -11,23 +11,23 @@
     <style>
         :root {
             --pi-purple: #78038C; /* Official Pi Network purple color, updated */
-            --pi-dark: #1a1a1a;
+            --pi-dark-header: #2c2c2c; /* Slightly lighter dark for header */
             --pi-light-gray: #f0f0f0;
             --pi-yellow: #FFD700;
         }
 
         body {
             font-family: 'Inter', sans-serif;
-            background-color: var(--pi-dark);
+            background-color: var(--pi-purple); /* Changed to purple */
             color: var(--pi-light-gray);
             overflow-x: hidden; /* Prevent horizontal scroll */
         }
         .header {
-            background-color: #2c2c2c; /* Slightly lighter dark for header */
+            background-color: var(--pi-dark-header);
             border-bottom: 1px solid rgba(255, 255, 255, 0.1);
         }
         .hero-section {
-            background-color: var(--pi-dark); /* Solid dark background */
+            background-color: var(--pi-purple); /* Changed to purple */
             position: relative;
             min-height: 80vh;
             display: flex; /* Use flexbox for layout */
@@ -46,7 +46,7 @@
             width: 80%; /* Smaller on mobile */
             max-width: 350px; /* Constrain max width */
             height: 500px; /* Fixed height for better control */
-            background-color: var(--pi-purple); /* Purple background */
+            background-color: #333333; /* Darker gray for the mockup container itself */
             border-radius: 1.5rem; /* Rounded corners */
             display: flex;
             align-items: center;
@@ -91,7 +91,7 @@
         /* Button styling with Pi Network yellow */
         .btn-pi-yellow {
             background-color: var(--pi-yellow);
-            color: var(--pi-dark);
+            color: var(--pi-dark-header); /* Use dark text on yellow buttons */
         }
         .btn-pi-yellow:hover {
             background-color: #fdd835; /* Slightly darker yellow on hover */
