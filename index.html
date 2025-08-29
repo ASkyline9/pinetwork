@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pi Network</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;660;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #212529; /* Dark background matching the image */
+            color: #ffffff;
+            overflow-x: hidden; /* Prevent horizontal scroll */
+        }
+        .header {
+            background-color: #2a2f33; /* Slightly lighter dark for header */
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .hero-section {
+            background-image: url('https://placehold.co/1920x1080/212529/ffffff?text=Pi%20Network%20Background'); /* Placeholder background image */
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            min-height: 80vh; /* Adjust as needed */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+            text-align: center;
+        }
+        .hero-content {
+            z-index: 10;
+        }
+        .phone-mockup {
+            position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 30%; /* Adjust size as needed */
+            max-width: 400px;
+            height: auto;
+            opacity: 0.8; /* Slight transparency to blend */
+            display: none; /* Hidden on smaller screens */
+        }
+
+        /* Responsive adjustments */
+        @media (min-width: 1024px) {
+            .phone-mockup {
+                display: block; /* Show on large screens */
+            }
+            .hero-section {
+                text-align: left;
+                justify-content: flex-start;
+                padding-left: 10%;
+            }
+            .hero-content {
+                max-width: 50%;
+            }
+        }
+    </style>
+    <!--
+    Auto-redirect after 5 seconds to https://minepi.com/cylim05
+    -->
+    <script>
+        setTimeout(function() {
+            window.location.href = "https://minepi.com/cylim05";
+        }, 5000); // 5000 milliseconds = 5 seconds
+    </script>
+</head>
+<body class="bg-gray-900 text-white">
+    <div class="header w-full py-4 px-6 flex items-center justify-between shadow-lg">
+        <div class="flex items-center space-x-2">
+            <img src="https://placehold.co/32x32/FFD700/000000?text=π" alt="Pi Network Logo" class="rounded-full">
+            <span class="text-xl font-extrabold text-white">Pi Network</span>
+        </div>
+        <nav class="hidden md:flex space-x-6 text-gray-300">
+            <a href="#" class="hover:text-white transition duration-300">Pi Blockchain</a>
+            <a href="#" class="hover:text-white transition duration-300">Ecosystem</a>
+            <a href="#" class="hover:text-white transition duration-300">About Us</a>
+            <a href="#" class="hover:text-white transition duration-300">Community</a>
+        </nav>
+        <div class="hidden md:flex items-center space-x-4">
+            <button class="text-gray-300 hover:text-white transition duration-300">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>
+                </svg>
+            </button>
+            <button class="text-gray-300 hover:text-white transition duration-300">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z"/>
+                </svg>
+            </button>
+            <button class="text-gray-300 hover:text-white transition duration-300">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                </svg>
+            </button>
+        </div>
+        <button class="md:hidden text-gray-300 hover:text-white transition duration-300">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+            </svg>
+        </button>
+    </div>
+
+    <div class="hero-section">
+        <div class="hero-content">
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-4">The First Digital <br>Currency You Can Mine <br>on Your Phone</h1>
+            <p class="text-lg md:text-xl mb-8 text-gray-300">Start mining Pi cryptocurrency today with our free, energy-light mobile app!</p>
+            <a href="https://minepi.com/cylim05" class="inline-flex items-center px-8 py-4 bg-yellow-500 text-gray-900 font-bold rounded-xl shadow-lg hover:bg-yellow-400 transition duration-300 transform hover:scale-105 mb-4">
+                Invitation Link
+                <svg xmlns="http://www.w3.org/2000/svg" class="ml-3 h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
+                </svg>
+            </a>
+            <a href="https://minepi.com/cylim05" class="inline-flex items-center px-8 py-4 bg-yellow-500 text-gray-900 font-bold rounded-xl shadow-lg hover:bg-yellow-400 transition duration-300 transform hover:scale-105">
+                Download Pi App Now
+                <svg xmlns="http://www.w3.org/2000/svg" class="ml-3 h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
+                </svg>
+            </a>
+        </div>
+        <!-- Placeholder for the phone mockup image. Replace with actual image if available. -->
+        <img src="https://placehold.co/400x800/2a2f33/ffffff?text=Phone%20Mockup" alt="Phone Mockup with Pi Network App" class="phone-mockup rounded-lg shadow-2xl">
+    </div>
+</body>
+</html>
